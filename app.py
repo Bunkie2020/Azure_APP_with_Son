@@ -2,6 +2,10 @@ from datetime import datetime
 from flask import Flask, render_template, request, redirect, url_for
 app = Flask(__name__)
 
+@app.route('/')
+def login():
+      print('Request for login')
+      return render_template('login.html')
 
 @app.route('/')
 def index():
@@ -12,6 +16,7 @@ def index():
 @app.route('/hello', methods=['POST'])
 def hello():
    name = request.form.get('name')
+   
 
    if name:
        print('Request for hello page received with name=%s' % name)
