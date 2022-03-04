@@ -7,7 +7,7 @@ def login():
       print('Request for login')
       return render_template('login.html')
    
-   @app.route('/')
+@app.route('/')
 def register():
       print('Request for registration')
       return render_template('register.html')
