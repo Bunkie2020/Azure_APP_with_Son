@@ -6,6 +6,11 @@ app = Flask(__name__)
 def login():
       print('Request for login')
       return render_template('login.html')
+   
+   @app.route('/')
+def register():
+      print('Request for registration')
+      return render_template('register.html')
 
 @app.route('/')
 def index():
