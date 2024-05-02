@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'AI-Recuit-JJRock'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F74F070D798B431EB0989AC6458AE434 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_74A1A412D40541DAA919D34FF53A0649 }}
           package: .
