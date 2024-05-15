@@ -4,5 +4,7 @@
     "azureFunctions.pythonVenv": ".venv",
     "azureFunctions.projectLanguage": "Python",
     "azureFunctions.projectRuntime": "~4",
-    "debug.internalConsoleOptions": "neverOpen"
+    "debug.internalConsoleOptions": "neverOpen",
+    "appService.defaultWebAppToDeploy": "/subscriptions/c31e5b1d-9826-480b-a238-c01eca692e8d/resourceGroups/AI-Recruiter-Elite/providers/Microsoft.Web/sites/AI-Eleet-Recruiter",
+    "appService.deploySubpath": "."
 }
